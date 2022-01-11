@@ -29,7 +29,7 @@ ruleset hello_world {
         result = name == "" => "Monkey" | name
       }
       
-      send_directive("say", {"something":"Hello " + result})
+      send_directive("say", {"greetings":"Hello " + result})
     }
 
      
